@@ -7,13 +7,13 @@
     background-color: black;
     color: white;
     padding: 1%;
-    border: white 2px solid;
+    border: white 3px solid;
 }
 
 .topnav {
     background-color: #000000;
     overflow: hidden;
-    border: white 2px solid;
+    border: white 3px solid;
 }
 
 .topnav a {
@@ -38,12 +38,12 @@
 #kod {
     margin-top: 1%;
     padding: 0 1% 1% 1%;
-    border: white 2px solid;
+    border: white 3px solid;
     color: white;
 }
 
 pre {
-    border: white 2px solid;
+    border: white 3px solid;
 }
 
 pre h3 {
@@ -58,7 +58,7 @@ code {
 
 #text {
     padding: 1% 1% 3% 1%;
-    border: white 2px solid;
+    border: white 3px solid;
     color: white;
 }
 
