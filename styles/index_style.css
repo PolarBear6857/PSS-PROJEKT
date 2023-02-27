@@ -1,0 +1,71 @@
+* {
+    font-family: monaco, Consolas, Lucida Console, monospace;
+    background-color: black;
+}
+
+#hlnadpis {
+    background-color: black;
+    color: white;
+    padding: 1%;
+    border: white 2px solid;
+}
+
+.topnav {
+    background-color: #000000;
+    overflow: hidden;
+    border: white 2px solid;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: white; /*#aa0404*/
+    color: black; /*white*/
+}
+
+#kod {
+    margin-top: 1%;
+    padding: 0 1% 1% 1%;
+    border: white 2px solid;
+    color: white;
+}
+
+pre {
+    border: white 2px solid;
+}
+
+pre h3 {
+    padding-left: 1%;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+code {
+    color: white;
+}
+
+#text {
+    padding: 1% 1% 3% 1%;
+    border: white 2px solid;
+    color: white;
+}
+
+#text p {
+
+    border: none;
+    margin: 0;
+    padding-top: 1%;
+    font-size: 90%;
+}
