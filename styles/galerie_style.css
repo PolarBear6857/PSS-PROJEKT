@@ -1,6 +1,7 @@
 * {
     font-family: monaco, Consolas, Lucida Console, monospace;
     background-color: black;
+    color: white;
 }
 
 #hlnadpis {
@@ -50,5 +51,11 @@
     width: auto;
     height: 255px;
     margin-right: 10px;
+}
+
+footer {
+    margin-top: 1%;
+    padding-left: 1%;
+    border: white 3px solid;
 }
 

@@ -1,6 +1,7 @@
 * {
     font-family: monaco, Consolas, Lucida Console, monospace;
     background-color: black;
+    color: white;
 }
 
 #hlnadpis {
@@ -48,4 +49,10 @@
 
 #popis p {
     font-size: 90%;
+}
+
+footer {
+    margin-top: 1%;
+    padding-left: 1%;
+    border: white 3px solid;
 }
