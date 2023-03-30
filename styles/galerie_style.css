@@ -36,21 +36,36 @@
     color: black; /*white*/
 }
 
-#border {
+.border {
     display: flex;
     flex-wrap: wrap;
     margin-top: 1%;
     padding: 1%;
     border: white 3px solid;
     color: white;
-
+    gap: 10px;
 }
 
-#border img {
+.border img {
     object-fit: cover;
     width: auto;
-    height: 255px;
-    margin-right: 10px;
+    height: 243px;
+}
+
+.border2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1%;
+    padding: 1%;
+    border: white 3px solid;
+    color: white;
+    gap: 10px;
+}
+
+.border2 img {
+    object-fit: cover;
+    width: auto;
+    height: 500px;
 }
 
 footer {

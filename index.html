@@ -15,7 +15,20 @@
 </header>
 <body>
 <div id="kod">
-        <pre>
+    <div id="text">
+        <h3>PRINCIP FUNGOVÁNÍ</h3>
+        <p>Tento projekt má za cíl vytvořit čítač osob na bázi IR diody a IR příjimače.</p>
+        <p>Konkrétně používá princip jednocestné závory, která zjišťuje přerušení paprsku světla mezi emitorem (LED) a
+            senzorem (IR přijímač).</p>
+        <p>Arduino zaznamená přerušení závory a přičte jednu osobu do součtu osob.</p>
+        <br>
+        <p>Plakát ke stažení zde: (POZOR! není vhodné pro mobilní zařízení. Plakát je formátu A0)</p>
+        <br>
+        <p><a href="PSS_PLAKÁT.docx" style="color: white" download>Stáhnout</a>*</p>
+        <p style="font-size: 65%">*Plakát není dovoleno jakkoliv upravovat a dále používat bez vědomí autora, děkuji
+            :)</p>
+    </div>
+    <pre>
             <h3>KÓD PRO ARDUINO</h3>
         <code>
             #define IR_SEND_PIN 3
@@ -108,20 +121,9 @@
             }
         </code>
         </pre>
-    <div id="text">
-        <h3>PRINCIP FUNGOVÁNÍ</h3>
-        <p>Tento projekt má za cíl vytvořit čítač osob na bázi IR diody a IR příjimače.</p>
-        <p>Konkrétně používá princip jednocestné závory, která zjišťuje přerušení paprsku světla mezi emitorem (LED) a
-            senzorem (IR přijímač).</p>
-        <p id="bottom">Arduino při každém přerušení světelné závory zaznamená na konzoli údaj, že se jedná o překážku.</p>
-        <br>
-        <p>Plakát ke stažení zde: (POZOR! není vhodné pro mobilní zařízení. Plakát je formátu A0)</p>
-        <br>
-        <p><a href="PSS_PLAKÁT.docx" style="color: white" download>Stáhnout</a>*</p>
-        <p style="font-size: 65%">*Plakát není dovoleno jakkoliv upravovat a dále používat bez vědomí autora, děkuji :)</p>
-    </div>
     <footer>
-        <p>&copy Martin Krúpa 2023  <a href="https://github.com/PolarBear6857/PSS-PROJEKT" target="_blank" style="color: white">GitHub</a></p>
+        <p>&copy Martin Krúpa 2023 <a href="https://github.com/PolarBear6857/PSS-PROJEKT" target="_blank"
+                                      style="color: white">GitHub</a></p>
     </footer>
 </div>
 </body>
