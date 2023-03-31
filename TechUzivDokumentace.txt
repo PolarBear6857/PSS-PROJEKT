@@ -1,0 +1,30 @@
+----------------------------------------------------------------------------------------------
+TECHNICKÁ A UŽIVATELSKÁ DOKUMENTACE
+----------------------------------------------------------------------------------------------
+1) POUŽITÝ SOFTWARE A HARDWARE
+----------------------------------------------------------------------------------------------
+- Hardware
+	- Arduino UNO Odkaz na eshop
+	- Spojovací drátky
+	- Odpor 220 Ohm
+	- IR dioda
+	- IR přijímač
+- Software
+	- Arduino IDE
+----------------------------------------------------------------------------------------------
+2) PŘÍPRAVA KE SPUŠTĚNÍ
+----------------------------------------------------------------------------------------------
+- Zapojte kabely podle popisků do správných konektorů na Arduinu
+- Připojíme Arduino k počítači (POUZE POKUD JE VŠE SPRÁVNĚ PŘIPOJENO!)
+- Otevřeme IDE a nahrajeme do Arduina přiložený kód
+- Hotovo!
+----------------------------------------------------------------------------------------------
+3) Spuštění
+----------------------------------------------------------------------------------------------
+- Namíříme 2 bíle trubky proti sobě (nesmí být nakřivo ani moc blízko u sebe!)
+- Otevřeme Serial Monitor v Arduino IDE
+	- Pokud jsou trubky moc blízko u sebe, vypíše to hned po zapnutí počet osob
+	- pokud trubky jsou ve správné vzdálenosti, nevypíše se nic
+- Vložíme mezi tyto trubky překážku (papír, knížku...)
+- pokud se vypíše počet osob, program funguje správně :D
+----------------------------------------------------------------------------------------------
